@@ -1,12 +1,12 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\card-storm.bundle.scp.css",
-      "PackagePath": "staticwebassets\\card-storm.bundle.scp.css"
-    },
-    {
       "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Styles\\Shared\\_Navbar.scss",
       "PackagePath": "staticwebassets\\Styles\\Shared\\_Navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Styles\\globals.css",
+      "PackagePath": "staticwebassets\\Styles\\globals.css"
     },
     {
       "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Styles\\main.css",

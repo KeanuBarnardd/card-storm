@@ -36,21 +36,21 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJhY3Rpc2VcUHJhY3Rpc2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Shared/Navbar.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdmJhci5yYXpvcg==
+[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/Profile/Profile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZVxQcm9maWxlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Shared/Navbar.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdmJhci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-f51k82p0pb
 
 [C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s

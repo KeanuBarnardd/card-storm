@@ -4,6 +4,7 @@
 @import "../../Pages/Practise/Practise";
 @import "../../Pages/Home/Home";
 @import "../../Pages/Help/Help";
+@import "../../Pages/Profile/Profile";
 
 // Shared Styles
 @import "./Shared/Navbar";
@@ -17,12 +18,55 @@
 .page {
   display: flex;
   flex-direction: column;
-  background-color: rgb(0, 110, 255);
+}
+
+.app__container {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: row;
 }
 
 .app__container-width {
-  width: 100%;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 95%;
+  max-width: 1100px;
+  // Smaller screen sizes make it 100%
+}
+
+.app__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-light {
+  background-color: rgb(114, 113, 113);
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  border-radius: var(--border-rad-1);
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.row{
+  display: flex;
+  align-items: center;
+}
+
+.bold{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  i{
+    color: var(--accent-color);
+    font-size: 1.4rem;
+  }
 }
