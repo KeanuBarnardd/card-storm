@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RhAOtgo1qRfVkfj/vjSLCnd9pQsWuIbBla87kwyXjuY=",
+  "Hash": "PnLi7/DvZk2Mro6iLZmbgPHPAwVueRlX/9oO7YUwUiA=",
   "Source": "card-storm",
   "BasePath": "_content/card-storm",
   "Mode": "Default",
@@ -321,6 +321,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Styles\\main.scss"
+    },
+    {
+      "Identity": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Styles\\Shared\\_Navbar.scss",
+      "SourceId": "card-storm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\",
+      "BasePath": "_content/card-storm",
+      "RelativePath": "Styles/Shared/_Navbar.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Styles\\Shared\\_Navbar.scss"
     }
   ]
 }

@@ -1,19 +1,22 @@
 @page "/Navbar"
 
 <nav>
-  <h2>Card<span>Storm</span></h2>
+  <NavLink>
+    <h2>Card<span>Storm</span></h2>
+  </NavLink>
 
   <div class="nav__links-container">
     <NavLink href="" Match="NavLinkMatch.All">
       Home
     </NavLink>
-    <NavLink href="C">
-
+    <NavLink href="Help">
+      Help
     </NavLink>
   </div>
 
-
-
+  <NavLink href="CreateDeck">
+    Create
+  </NavLink>
 </nav>
 
 @code {
