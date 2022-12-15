@@ -12,39 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -474931253,
-        "Kind": "Components.Component",
-        "Name": "card_storm.App",
-        "AssemblyName": "card-storm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "card_storm.App"
-        }
-      },
-      {
-        "HashCode": 1151147140,
-        "Kind": "Components.Component",
-        "Name": "card_storm.App",
-        "AssemblyName": "card-storm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "card_storm.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "card_storm.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 351857760,
         "Kind": "Components.Component",
         "Name": "card_storm.Pages.Home.Home",
@@ -74,6 +41,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "card_storm.Pages.Home.Home",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 932095171,
+        "Kind": "Components.Component",
+        "Name": "card_storm.Pages.Practise.Practise",
+        "AssemblyName": "card-storm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Practise"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "card_storm.Pages.Practise.Practise"
+        }
+      },
+      {
+        "HashCode": -1935947803,
+        "Kind": "Components.Component",
+        "Name": "card_storm.Pages.Practise.Practise",
+        "AssemblyName": "card-storm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "card_storm.Pages.Practise.Practise"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "card_storm.Pages.Practise.Practise",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -111,35 +111,35 @@
         }
       },
       {
-        "HashCode": 932095171,
+        "HashCode": 1942036417,
         "Kind": "Components.Component",
-        "Name": "card_storm.Pages.Practise.Practise",
+        "Name": "card_storm.Pages.Help.Help",
         "AssemblyName": "card-storm",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Practise"
+            "TagName": "Help"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "card_storm.Pages.Practise.Practise"
+          "Common.TypeName": "card_storm.Pages.Help.Help"
         }
       },
       {
-        "HashCode": -1935947803,
+        "HashCode": 1781208902,
         "Kind": "Components.Component",
-        "Name": "card_storm.Pages.Practise.Practise",
+        "Name": "card_storm.Pages.Help.Help",
         "AssemblyName": "card-storm",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "card_storm.Pages.Practise.Practise"
+            "TagName": "card_storm.Pages.Help.Help"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "card_storm.Pages.Practise.Practise",
+          "Common.TypeName": "card_storm.Pages.Help.Help",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -193,39 +193,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "card_storm.Shared.SurveyPrompt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 368580950,
-        "Kind": "Components.Component",
-        "Name": "card_storm.Shared.Navbar",
-        "AssemblyName": "card-storm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Navbar"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "card_storm.Shared.Navbar"
-        }
-      },
-      {
-        "HashCode": -1599702264,
-        "Kind": "Components.Component",
-        "Name": "card_storm.Shared.Navbar",
-        "AssemblyName": "card-storm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "card_storm.Shared.Navbar"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "card_storm.Shared.Navbar",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -322,6 +289,72 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "card_storm.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 368580950,
+        "Kind": "Components.Component",
+        "Name": "card_storm.Shared.Navbar",
+        "AssemblyName": "card-storm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Navbar"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "card_storm.Shared.Navbar"
+        }
+      },
+      {
+        "HashCode": -1599702264,
+        "Kind": "Components.Component",
+        "Name": "card_storm.Shared.Navbar",
+        "AssemblyName": "card-storm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "card_storm.Shared.Navbar"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "card_storm.Shared.Navbar",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -474931253,
+        "Kind": "Components.Component",
+        "Name": "card_storm.App",
+        "AssemblyName": "card-storm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "card_storm.App"
+        }
+      },
+      {
+        "HashCode": 1151147140,
+        "Kind": "Components.Component",
+        "Name": "card_storm.App",
+        "AssemblyName": "card-storm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "card_storm.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "card_storm.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16882,6 +16915,11 @@
       "FilePath": "c:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "c:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\Pages\\Help\\Help.razor",
+      "TargetPath": "Pages\\Help\\Help.razor",
+      "FileKind": "component"
     },
     {
       "FilePath": "c:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\Shared\\SurveyPrompt.razor",
