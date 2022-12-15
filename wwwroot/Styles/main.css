@@ -1,5 +1,6 @@
 .nav__container {
   background-color: var(--secondary-color);
+  margin-bottom: 2rem;
 }
 
 .nav__container nav {
@@ -142,10 +143,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .app__container-width {

@@ -1,7 +1,32 @@
 @page "/CreateDeck"
 
-<h1>Create Deck</h1>
+<div class="app__flex ">
+  <div class="app__container-width">
+
+    <p>What is the name of your Deck?</p>
+    <input type="text" @bind="newDeckName">
+
+    <button @onclick="AddNewCard">Add card</button>
+
+    @foreach (var deck in decks)
+    {
+      <p>@deck.deckName</p>
+    }
+
+  </div>
+</div>
+
 
 @code {
+  private List<DeckItem> decks = new();
+  private string? newDeckName;
 
+  private void AddNewCard()
+  {
+    if (!string.IsNullOrWhiteSpace(newDeckName))
+    {
+      decks.Add(new DeckItem { deckName = newDeckName });
+      newDeckName = string.Empty;
+    }
+  }
 }
