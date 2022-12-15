@@ -2,7 +2,10 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "main.scss"
+        "main.scss",
+        "../../Pages/CreateDeck/_CreateDeck.scss",
+        "../../Pages/Practise/Practise.scss",
+        "../../Pages/Home/_Home.scss"
     ],
     "names": [],
     "file": "main.css"

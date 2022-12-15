@@ -22,7 +22,6 @@ C:\Users\keanu\OneDrive\Documents\C# Projects\Published\card-storm\obj\Debug\net
 C:\Users\keanu\OneDrive\Documents\C# Projects\Published\card-storm\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\keanu\OneDrive\Documents\C# Projects\Published\card-storm\obj\Debug\net7.0\staticwebassets.development.json
 C:\Users\keanu\OneDrive\Documents\C# Projects\Published\card-storm\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
-C:\Users\keanu\OneDrive\Documents\C# Projects\Published\card-storm\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 C:\Users\keanu\OneDrive\Documents\C# Projects\Published\card-storm\obj\Debug\net7.0\scopedcss\bundle\card-storm.styles.css
 C:\Users\keanu\OneDrive\Documents\C# Projects\Published\card-storm\obj\Debug\net7.0\scopedcss\projectbundle\card-storm.bundle.scp.css
 C:\Users\keanu\OneDrive\Documents\C# Projects\Published\card-storm\obj\Debug\net7.0\card-storm.dll

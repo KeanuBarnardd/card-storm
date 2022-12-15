@@ -20,12 +20,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/CreateDeck/CreateDeck.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlRGVja1xDcmVhdGVEZWNrLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/Home/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/Practise/Practise.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJhY3Rpc2VcUHJhY3Rpc2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Shared/Navbar.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdmJhci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Shared/SurveyPrompt.razor]
@@ -39,14 +47,6 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-f51k82p0pb
-
-[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-v5ddru80w0
-
-[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
