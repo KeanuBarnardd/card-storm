@@ -8,25 +8,24 @@
 
     <button @onclick="AddNewCard">Add card</button>
 
-    @foreach (var deck in decks)
+    @foreach (var card in deck)
     {
-      <p>@deck.deckName</p>
+      <CreateCard question="Hello" />
     }
 
   </div>
 </div>
 
 
+
+
 @code {
-  private List<DeckItem> decks = new();
+  private List<CardItem> deck = new();
   private string? newDeckName;
 
   private void AddNewCard()
   {
-    if (!string.IsNullOrWhiteSpace(newDeckName))
-    {
-      decks.Add(new DeckItem { deckName = newDeckName });
-      newDeckName = string.Empty;
-    }
+    deck.Add(new CardItem { });
+    Console.WriteLine(deck);
   }
 }

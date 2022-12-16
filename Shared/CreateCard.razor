@@ -5,17 +5,20 @@
     <span>
       <p class="create__card-title">Card @cardNumber</p>
     </span>
-    <input type="text">
+    <p>Question</p>
+    <input type="text" @bind="question"  >
+    <p>Answer</p>
+    <input type="text" @bind="answer"  >
   </div>
 
   <div class="display__side">
-
+    <p>@question</p>
+    <p>@answer</p>
   </div>
 
 </div>
 
 @code {
-
   [Parameter] public int cardNumber { get; set; } = 0;
   [Parameter] public string? question { get; set; }
   [Parameter] public string? answer { get; set; }
