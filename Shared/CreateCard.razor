@@ -20,6 +20,6 @@
 
 @code {
   [Parameter] public int cardNumber { get; set; } = 0;
-  [Parameter] public string? question { get; set; }
-  [Parameter] public string? answer { get; set; }
+  [Parameter] public string? question { get; set; } = string.Empty;
+  [Parameter] public string? answer {get; set; } = string.Empty;
 }

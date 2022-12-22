@@ -10,8 +10,9 @@
 
     @foreach (var card in deck)
     {
-      <CreateCard question="Hello" />
+      <CreateCard cardNumber=card.cardNumber />
     }
+    <button @onclick="PublishDeck"> Publish Deck</button>
 
   </div>
 </div>
@@ -22,10 +23,18 @@
 @code {
   private List<CardItem> deck = new();
   private string? newDeckName;
+  private int cardCount = 0;
 
   private void AddNewCard()
   {
-    deck.Add(new CardItem { });
+    cardCount += 1;
+    deck.Add(new CardItem { cardNumber = cardCount });
     Console.WriteLine(deck);
+  }
+
+  private void PublishDeck()
+  {
+    Console.WriteLine("Publish Deck");
+    cardCount = 0;
   }
 }
