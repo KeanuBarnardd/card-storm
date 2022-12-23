@@ -306,91 +306,6 @@
         }
       },
       {
-        "HashCode": 474891078,
-        "Kind": "Components.Component",
-        "Name": "card_storm.Shared.CreateCard",
-        "AssemblyName": "card-storm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CreateCard"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "cardNumber",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "cardNumber"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "question",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "question"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "answer",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "answer"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "card_storm.Shared.CreateCard"
-        }
-      },
-      {
-        "HashCode": -1678360800,
-        "Kind": "Components.Component",
-        "Name": "card_storm.Shared.CreateCard",
-        "AssemblyName": "card-storm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "card_storm.Shared.CreateCard"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "cardNumber",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "cardNumber"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "question",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "question"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "answer",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "answer"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "card_storm.Shared.CreateCard",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1448586005,
         "Kind": "Components.Component",
         "Name": "card_storm.App",
@@ -16966,11 +16881,6 @@
   },
   "RootNamespace": "card_storm",
   "Documents": [
-    {
-      "FilePath": "c:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\Shared\\CreateCard.razor",
-      "TargetPath": "Shared\\CreateCard.razor",
-      "FileKind": "component"
-    },
     {
       "FilePath": "c:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\Pages\\Practise\\Practise.razor",
       "TargetPath": "Pages\\Practise\\Practise.razor",

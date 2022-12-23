@@ -1,7 +1,8 @@
 namespace card_storm
 {
-  public class DeckItem
+  public class DeckItem 
   {
-    public string? deckName { get; set; }
+    public string? title { get; set; }
+    public List<CardItem>? cardItems {get; set;}
   }
 }

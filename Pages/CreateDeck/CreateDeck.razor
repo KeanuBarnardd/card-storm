@@ -10,31 +10,69 @@
 
     @foreach (var card in deck)
     {
-      <CreateCard cardNumber=card.cardNumber />
+      <div class="create-card__container">
+        <div class="input__side">
+          <span>
+            <p class="create__card-title">Card @card.cardNumber</p>
+          </span>
+          <p>Question</p>
+          <input type="text" @bind="card.question">
+          <p>Answer</p>
+          <input type="text" @bind="card.answer">
+        </div>
+
+        <div class="display__side">
+          <p>@card.question</p>
+          <p>@card.answer</p>
+        </div>
+      </div>
     }
     <button @onclick="PublishDeck"> Publish Deck</button>
-
   </div>
+
+
+  @foreach (var deck in deckLists)
+  {
+    <div>
+      <p>@deck.title</p>
+      @foreach (var card in deck.cardItems)
+      {
+        <div>
+          This is card @card.cardNumber
+          <p>Question : @card.question</p>
+          <p>Awnser : @card.answer</p>
+        </div>
+      }
+    </div>
+  }
+
 </div>
 
-
-
-
 @code {
+  public List<DeckItem> deckLists = new();
   private List<CardItem> deck = new();
+
   private string? newDeckName;
   private int cardCount = 0;
 
   private void AddNewCard()
   {
     cardCount += 1;
-    deck.Add(new CardItem { cardNumber = cardCount });
-    Console.WriteLine(deck);
+    deck.Add(new CardItem { cardNumber = cardCount, });
   }
 
   private void PublishDeck()
   {
-    Console.WriteLine("Publish Deck");
+    // Create our new deck & add to decks list
+    if (deck.Count != 0)
+    {
+      deckLists.Add(new DeckItem { title = newDeckName, cardItems = deck });
+    }else{
+      Console.WriteLine("You don't have any cards in your list");
+    }
+
+    // Rest our card count & remove all input values
     cardCount = 0;
+
   }
 }
