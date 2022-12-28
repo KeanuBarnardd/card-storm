@@ -2,11 +2,14 @@
 
 
 @import "../../Pages/Home/Home";
-
+@import "../../Pages/About/About";
+@import "../../Pages/Contact/Contact";
+@import "../../Pages/Products/Products";
+@import "../../Pages/Services/Services";
 
 // Shared Styles
 @import "./Shared/Navbar";
-
+@import "./Shared/HomeHeader";
 * {
   padding: 0;
   margin: 0;

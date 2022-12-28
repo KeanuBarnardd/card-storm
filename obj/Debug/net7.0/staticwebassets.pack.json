@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\homeHeader.png",
+      "PackagePath": "staticwebassets\\Assets\\homeHeader.png"
+    },
+    {
       "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Styles\\Shared\\_Navbar.scss",
       "PackagePath": "staticwebassets\\Styles\\Shared\\_Navbar.scss"
     },

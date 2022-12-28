@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PXYcmTN/9u/9Ixn1G6P0ULz3u4xH/4KZEy9oxBPdcpw=",
+  "Hash": "+T5yuWkaVfamDfBiZNvpu2naCxDk4Z7y8qAvERKQSCE=",
   "Source": "card-storm",
   "BasePath": "_content/card-storm",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\homeHeader.png",
+      "SourceId": "card-storm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\",
+      "BasePath": "_content/card-storm",
+      "RelativePath": "Assets/homeHeader.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\homeHeader.png"
+    },
     {
       "Identity": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "card-storm",
