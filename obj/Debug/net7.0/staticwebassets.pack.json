@@ -1,8 +1,12 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\homeHeader.png",
-      "PackagePath": "staticwebassets\\Assets\\homeHeader.png"
+      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\homeHeader.jpg",
+      "PackagePath": "staticwebassets\\Assets\\homeHeader.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Styles\\Shared\\_HomeHeader.scss",
+      "PackagePath": "staticwebassets\\Styles\\Shared\\_HomeHeader.scss"
     },
     {
       "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Styles\\Shared\\_Navbar.scss",

@@ -1,45 +1,88 @@
-.nav__bg{
+.nav__bg {
   background-color: rgba(255, 255, 255, 0);
-  border-bottom: 1px solid var(--grey-200);
- 
-  nav{
+  border-bottom: 1px solid rgba(128, 128, 128, 0.315);
+  width: 100%;
+  position: absolute;
+  font-size: 0.93rem;
+  font-weight: bold;
+  nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
-    .logo__link{
+
+    .logo__link {
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 13px;
       color: var(--accent-color);
       text-decoration: none;
-      i{
-        font-size: 2rem;
-        text-shadow: 3px -3px rgb(255, 255, 255);
+      i {
+        font-size: 2.1rem;
       }
     }
 
-    .nav__links-container{
+    .nav__links-container {
       display: flex;
-      
-      .nav-link{
+
+      .nav-link {
         padding: 1.5rem 1rem;
         text-decoration: none;
         transition: ease-in-out all var(--timer-short);
         border-bottom: 2px solid rgba(255, 255, 255, 0);
+        color: var(--white-color);
       }
 
-      .nav-link.active{
+      .nav-link.active {
         border-bottom: 2px solid var(--accent-color);
         color: var(--accent-color);
         height: 100%;
       }
     }
 
-    .nav__links-right-container{
+    .nav__links-right-container {
       display: flex;
       align-items: center;
       gap: 10px;
+      .navbar__contact.btn {
+        background-color: var(--white-color);
+        color: var(--grey-700);
+        padding: 0.5rem 1.5rem;
+        text-decoration: none;
+        font-size: 0.93rem;
+      }
+
+      .navbar__contact.btn:hover {
+        background-color: rgb(202, 202, 202);
+      }
+
+      i {
+        background-color: var(--accent-color);
+        font-size: 1rem;
+        margin-left: 1rem;
+        padding: 0.6rem;
+        border-radius: 100%;
+        color: var(--white-color);
+      }
     }
+  }
+}
+
+.logo__col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--white-color);
+  h1{
+    font-size: 1.7rem;
+    margin-bottom: 0.1rem;
+  }
+  h3,
+  h1 {
+    line-height: 16px;
+    margin-top: 0.3rem;
+  }
+  p {
+    font-weight: 500;
+    font-size: 0.8rem;
   }
 }
