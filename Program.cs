@@ -8,9 +8,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 
-public void ConfigureServices(IServiceCollection services){
-  services.AddSingleton<
-}
 
 var app = builder.Build();
 
