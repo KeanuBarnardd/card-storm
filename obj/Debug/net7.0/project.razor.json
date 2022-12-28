@@ -207,35 +207,35 @@
         }
       },
       {
-        "HashCode": -668929021,
+        "HashCode": 564503397,
         "Kind": "Components.Component",
-        "Name": "card_storm.Pages.Services.Services",
+        "Name": "card_storm.Shared.HomeHeader",
         "AssemblyName": "card-storm",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Services"
+            "TagName": "HomeHeader"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "card_storm.Pages.Services.Services"
+          "Common.TypeName": "card_storm.Shared.HomeHeader"
         }
       },
       {
-        "HashCode": -1349802692,
+        "HashCode": -319745999,
         "Kind": "Components.Component",
-        "Name": "card_storm.Pages.Services.Services",
+        "Name": "card_storm.Shared.HomeHeader",
         "AssemblyName": "card-storm",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "card_storm.Pages.Services.Services"
+            "TagName": "card_storm.Shared.HomeHeader"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "card_storm.Pages.Services.Services",
+          "Common.TypeName": "card_storm.Shared.HomeHeader",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -269,6 +269,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "card_storm.Pages.Products.Products",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -668929021,
+        "Kind": "Components.Component",
+        "Name": "card_storm.Pages.Services.Services",
+        "AssemblyName": "card-storm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Services"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "card_storm.Pages.Services.Services"
+        }
+      },
+      {
+        "HashCode": -1349802692,
+        "Kind": "Components.Component",
+        "Name": "card_storm.Pages.Services.Services",
+        "AssemblyName": "card-storm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "card_storm.Pages.Services.Services"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "card_storm.Pages.Services.Services",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16881,6 +16914,11 @@
   },
   "RootNamespace": "card_storm",
   "Documents": [
+    {
+      "FilePath": "c:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\Shared\\HomeHeader.razor",
+      "TargetPath": "Shared\\HomeHeader.razor",
+      "FileKind": "component"
+    },
     {
       "FilePath": "c:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\Pages\\Services\\Services.razor",
       "TargetPath": "Pages\\Services\\Services.razor",

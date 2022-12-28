@@ -1,18 +1,26 @@
 @page "/Navbar"
 
-<div class="nav__container app__flex">
+<div class="nav__bg nav__container app__flex">
   <nav class="app__container-width">
     
-    <NavLink class="logo__link" href="" Match="NavLinkMatch.All">
-      <i>Logo Here</i>
+    <NavLink class="logo__link" href="home" Match="NavLinkMatch.All">
+      <i class="fa-solid fa-user-secret"></i>
       <h1>Sekure Security</h1>
     </NavLink>
 
     <div class="nav__links-container">
-      <NavLink href="/">Home</NavLink>
-      <NavLink href="Products">Products</NavLink>
-      <NavLink href="Services">Services & Industries</NavLink>
-      <NavLink href="About">About</NavLink>
+      <NavLink class="nav-link" href="home">Home</NavLink>
+      <NavLink class="nav-link" href="Products">Products</NavLink>
+      <NavLink class="nav-link" href="Services">Services</NavLink>
+      <NavLink class="nav-link" href="About">About</NavLink>
+    </div>
+
+    <div class="nav__links-right-container">
+      <i class="fa-solid fa-phone"></i>
+      <div class="col">
+        <h3>03-456-7234-54</h3>
+        <p>chris@sekureSecurity.com.au</p>
+      </div>
     </div>
   </nav>
 </div>
