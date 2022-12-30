@@ -210,6 +210,23 @@
   line-height: 18px;
 }
 
+.header__container .header__content .header__card a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+  color: var(--accent-color);
+  margin-top: 0.5rem;
+  text-decoration: none;
+}
+
+.header__container .header__content .header__card a i {
+  font-size: 1.3rem;
+}
+
 * {
   padding: 0;
   margin: 0;

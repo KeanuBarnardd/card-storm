@@ -9,57 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = card_storm
 build_property.RootNamespace = card_storm
-build_property.ProjectDir = C:\Users\keanu\OneDrive\Documents\C# Projects\Published\card-storm\
+build_property.ProjectDir = c:\Users\keanu\OneDrive\Documents\C# Projects\Published\card-storm\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\keanu\OneDrive\Documents\C# Projects\Published\card-storm
+build_property.MSBuildProjectDirectory = c:\Users\keanu\OneDrive\Documents\C# Projects\Published\card-storm
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/App.razor]
+[c:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/About/About.razor]
+[c:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/About/About.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXRcQWJvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/Contact/Contact.razor]
+[c:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/Contact/Contact.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdFxDb250YWN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/Home/Home.razor]
+[c:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/Home/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/Products/Products.razor]
+[c:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/Products/Products.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcUHJvZHVjdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/Services/Services.razor]
+[c:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/Services/Services.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZXNcU2VydmljZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Shared/HomeHeader.razor]
+[c:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Shared/HomeHeader.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEhvbWVIZWFkZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Shared/MainLayout.razor]
+[c:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Shared/MobileNavbar.razor]
+[c:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Shared/MobileNavbar.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1vYmlsZU5hdmJhci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Shared/Navbar.razor]
+[c:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Shared/Navbar.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdmJhci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/_Imports.razor]
+[c:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/_Host.cshtml]
+[c:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

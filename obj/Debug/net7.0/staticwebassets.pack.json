@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\homeCardImage.jpg",
+      "PackagePath": "staticwebassets\\Assets\\homeCardImage.jpg"
+    },
+    {
       "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\homeHeader.jpg",
       "PackagePath": "staticwebassets\\Assets\\homeHeader.jpg"
     },
