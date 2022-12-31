@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iJAaayaq4NniTHI4hsJ/SDNgleYjGVF9k0KXDyT7sn4=",
+  "Hash": "DttLHri8UiyfdTD2405qffouPvU79n7xvLIHG+M6OzY=",
   "Source": "card-storm",
   "BasePath": "_content/card-storm",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Assets\\homeHeader.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\securityImage.jpg",
+      "SourceId": "card-storm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\",
+      "BasePath": "_content/card-storm",
+      "RelativePath": "Assets/securityImage.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\securityImage.jpg"
     },
     {
       "Identity": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\css\\bootstrap\\bootstrap.min.css",

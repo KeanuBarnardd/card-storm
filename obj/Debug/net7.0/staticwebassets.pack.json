@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\Assets\\homeHeader.jpg"
     },
     {
+      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\securityImage.jpg",
+      "PackagePath": "staticwebassets\\Assets\\securityImage.jpg"
+    },
+    {
       "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Styles\\Shared\\_HomeHeader.scss",
       "PackagePath": "staticwebassets\\Styles\\Shared\\_HomeHeader.scss"
     },
