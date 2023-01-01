@@ -5,11 +5,14 @@
   position: absolute;
   font-size: 0.93rem;
   font-weight: bold;
+
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    @media screen and (max-width: 800px) {
+      display: none;
+    }
     .logo__link {
       display: flex;
       align-items: center;
@@ -72,7 +75,7 @@
   flex-direction: column;
   justify-content: center;
   color: var(--white-color);
-  h1{
+  h1 {
     font-size: 1.7rem;
     margin-bottom: 0.1rem;
   }

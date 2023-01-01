@@ -10,6 +10,7 @@
 @import "./Shared/Navbar";
 @import "./Shared/HomeHeader";
 @import "./Shared/Footer";
+@import "./Shared/MobileNavbar";
 
 * {
   padding: 0;
@@ -79,11 +80,11 @@
   cursor: pointer;
 }
 
-.btn.btn-line{
+.btn.btn-line {
   border: 1px solid var(--grey-600);
   background-color: white;
-  color: var(--grey-600); 
-  &:hover{
+  color: var(--grey-600);
+  &:hover {
     background-color: var(--grey-600);
     color: white;
   }
@@ -105,10 +106,10 @@
   }
 }
 
-.btn.btn-black{
+.btn.btn-black {
   background-color: var(--black-100);
   color: var(--white-color);
-  &:hover{
+  &:hover {
     background-color: var(--grey-700);
   }
 }
@@ -133,19 +134,19 @@
   }
 }
 
-.head-text{
+.head-text {
   color: var(--grey-700);
   line-height: 38px;
 }
 
-.p-text{
+.p-text {
   color: var(--grey-600);
 }
 
-.bold{
+.bold {
   font-weight: bold;
 }
 
-.bg-dark{
+.bg-dark {
   background-color: var(--black-100);
 }

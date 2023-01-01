@@ -152,6 +152,12 @@
           align-items: center;
 }
 
+@media screen and (max-width: 800px) {
+  .nav__bg nav {
+    display: none;
+  }
+}
+
 .nav__bg nav .logo__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -432,6 +438,69 @@ footer .footer__content .button__container div .phone__container p {
 footer .footer__content .button__container div .phone__container h2 {
   line-height: 0px;
   color: var(--white-color);
+}
+
+.mobile__nav {
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.315);
+  width: 100%;
+  position: absolute;
+  font-size: 0.93rem;
+  font-weight: bold;
+  padding: 1rem 0rem;
+}
+
+.mobile__nav div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mobile__nav div .logo__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 13px;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.mobile__nav div .logo__link i {
+  font-size: 2.1rem;
+}
+
+.mobile__nav div button {
+  font-size: 2rem;
+  color: var(--white-color);
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 800px) {
+  .mobile__nav {
+    display: none !important;
+  }
+  .mobile__nav div {
+    display: none;
+  }
+}
+
+.mobile__nav .mobile__nav-screen {
+  display: none;
+  background-color: red;
+}
+
+.mobile__nav .mobile__nav-screen.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 * {
