@@ -9,6 +9,8 @@
 // Shared Styles
 @import "./Shared/Navbar";
 @import "./Shared/HomeHeader";
+@import "./Shared/Footer";
+
 * {
   padding: 0;
   margin: 0;
@@ -73,6 +75,18 @@
   align-items: center;
   text-decoration: none;
   transition: all ease-in-out var(--timer-short);
+  border: none;
+  cursor: pointer;
+}
+
+.btn.btn-line{
+  border: 1px solid var(--grey-600);
+  background-color: white;
+  color: var(--grey-600); 
+  &:hover{
+    background-color: var(--grey-600);
+    color: white;
+  }
 }
 
 .btn.btn-green {
@@ -94,6 +108,9 @@
 .btn.btn-black{
   background-color: var(--black-100);
   color: var(--white-color);
+  &:hover{
+    background-color: var(--grey-700);
+  }
 }
 
 .col {
@@ -127,4 +144,8 @@
 
 .bold{
   font-weight: bold;
+}
+
+.bg-dark{
+  background-color: var(--black-100);
 }

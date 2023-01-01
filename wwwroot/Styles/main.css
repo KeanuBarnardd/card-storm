@@ -4,7 +4,7 @@
 }
 
 .row__container .home__info-details {
-  max-width: 600px;
+  max-width: 700px;
 }
 
 .row__container .home__info-details .p-text {
@@ -50,11 +50,85 @@
   background-color: var(--grey-100);
   padding: 5px;
   border-radius: 100%;
-  color: var(--grey-700);
+  color: var(--accent-color);
 }
 
 .row__container .home__info-details .button__container .btn {
   padding: 0.8rem 1.3rem;
+  gap: 5px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.matters__bg {
+  background-image: url();
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(5%, rgba(0, 0, 0, 0.952)), to(rgba(117, 19, 93, 0))), url("/Assets/mattersImage.jpg");
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.952) 5%, rgba(117, 19, 93, 0)), url("/Assets/mattersImage.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+}
+
+.matters__bg div h1 {
+  margin-bottom: 1rem;
+}
+
+.matters__bg div h1, .matters__bg div p {
+  color: var(--white-color);
+  width: 100%;
+  max-width: 700px;
+}
+
+.matters__bg div .matters__grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(150px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  margin-top: 2rem;
+}
+
+.matters__bg div .matters__grid .matters__card {
+  border: 1px solid var(--grey-300);
+  padding: 2rem;
+  -webkit-transition: all ease-in-out var(--timer-short);
+  transition: all ease-in-out var(--timer-short);
+}
+
+.matters__bg div .matters__grid .matters__card h1 {
+  font-size: 3rem;
+  font-weight: lighter;
+}
+
+.matters__bg div .matters__grid .matters__card p {
+  font-size: 1.4rem;
+  line-height: 25px;
+}
+
+.matters__bg div .matters__grid .matters__card:hover {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.smart__container div {
+  max-width: 400px;
+}
+
+.smart__container div .accent-text {
+  color: var(--accent-color);
+}
+
+.smart__container div:nth-child(2) {
+  max-width: 600px;
+}
+
+.smart__container div:nth-child(2) .p-text {
+  margin-bottom: 1rem;
+}
+
+.smart__container div:nth-child(2) div .btn {
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
 }
 
 .nav__bg {
@@ -286,6 +360,80 @@
   font-size: 1.3rem;
 }
 
+footer {
+  padding: 5rem 0rem;
+}
+
+footer .footer__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 700px;
+  text-align: center;
+}
+
+footer .footer__content h1 {
+  font-size: 3rem;
+  line-height: 50px;
+  color: var(--white-color);
+  margin-bottom: 1rem;
+}
+
+footer .footer__content p {
+  color: var(--white-color);
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+footer .footer__content .button__container a {
+  padding: 1rem 1.5rem;
+}
+
+footer .footer__content .button__container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+footer .footer__content .button__container div i {
+  background-color: var(--white-color);
+  color: var(--accent-color);
+  font-size: 1.5rem;
+  padding: 0.7rem;
+  border-radius: 100%;
+}
+
+footer .footer__content .button__container div .phone__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .footer__content .button__container div .phone__container p {
+  margin-bottom: 0;
+  line-height: 0px;
+}
+
+footer .footer__content .button__container div .phone__container h2 {
+  line-height: 0px;
+  color: var(--white-color);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -384,6 +532,19 @@
   text-decoration: none;
   -webkit-transition: all ease-in-out var(--timer-short);
   transition: all ease-in-out var(--timer-short);
+  border: none;
+  cursor: pointer;
+}
+
+.btn.btn-line {
+  border: 1px solid var(--grey-600);
+  background-color: white;
+  color: var(--grey-600);
+}
+
+.btn.btn-line:hover {
+  background-color: var(--grey-600);
+  color: white;
 }
 
 .btn.btn-green {
@@ -407,6 +568,10 @@
 .btn.btn-black {
   background-color: var(--black-100);
   color: var(--white-color);
+}
+
+.btn.btn-black:hover {
+  background-color: var(--grey-700);
 }
 
 .col {
@@ -455,5 +620,9 @@
 
 .bold {
   font-weight: bold;
+}
+
+.bg-dark {
+  background-color: var(--black-100);
 }
 /*# sourceMappingURL=main.css.map */
