@@ -9,7 +9,25 @@
     </NavLink>
     <button @onclick="ToggleMobileNav"><i class="fa-solid fa-bars"></i></button>
   </div>
-  <div class="mobile__nav-screen @mobileActive">Mobile Nav Screen</div>
+  <div class="mobile__nav-screen app__flex @mobileActive">
+    <div class="top__nav app__container-width">
+      <NavLink class="logo__link" href="home" Match="NavLinkMatch.All">
+        <i class="fa-solid fa-user-secret"></i>
+        <div class="logo__col">
+          <h1>Sekure.</h1>
+          <p>Home Security Systems</p>
+        </div>
+      </NavLink>
+      <button @onclick="ToggleMobileNav"><i class="fa-solid fa-bars"></i></button>
+    </div>
+    <div class="main__nav-links">
+      <NavLink @onclick="ToggleMobileNav" href="home">Home.</NavLink>
+      <NavLink @onclick="ToggleMobileNav" href="products">Products.</NavLink>
+      <NavLink @onclick="ToggleMobileNav" href="services">Services.</NavLink>
+      <NavLink @onclick="ToggleMobileNav" href="about">About.</NavLink>
+      <NavLink @onclick="ToggleMobileNav" href="contact">Contact.</NavLink>
+    </div>
+  </div>
 </nav>
 
 

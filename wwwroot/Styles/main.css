@@ -494,13 +494,62 @@ footer .footer__content .button__container div .phone__container h2 {
 
 .mobile__nav .mobile__nav-screen {
   display: none;
-  background-color: red;
+  background-color: var(--black-100);
+  -webkit-transition: all ease-in-out var(--timer-short);
+  transition: all ease-in-out var(--timer-short);
 }
 
 .mobile__nav .mobile__nav-screen.active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.mobile__nav .mobile__nav-screen.active .top__nav {
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
+
+.mobile__nav .mobile__nav-screen.active .main__nav-links {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 4rem;
+  gap: 10px;
+}
+
+.mobile__nav .mobile__nav-screen.active .main__nav-links a {
+  font-size: 2rem;
+  padding-left: 0.8rem;
+  text-decoration: none;
+  border-left: 2px solid var(--black-100);
+  color: var(--white-color);
+}
+
+.mobile__nav .mobile__nav-screen.active .main__nav-links a:hover {
+  color: var(--grey-300);
+}
+
+.mobile__nav .mobile__nav-screen.active .main__nav-links a.active {
+  border-left: 2px solid var(--accent-color);
+  color: var(--accent-color);
 }
 
 * {
