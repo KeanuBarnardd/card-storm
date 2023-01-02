@@ -5,13 +5,29 @@
   background-size: cover;
   height: 70vh;
   width: 100%;
+
+
+  @media screen and (max-width: 800px) {
+    height: 100vh;
+  }
+
   .header__content {
     display: flex;
     justify-content: space-between;
+
+
+    @media screen and (max-width: 800px) {
+      flex-direction: column;
+    }
+
     h1,
     p {
       color: var(--white-color);
       width: 100%;
+      @media screen and (max-width: 800px) {
+        width: 100%;
+        text-align: center;
+      }
     }
 
     h1 {
@@ -25,11 +41,23 @@
       max-width: 700px;
     }
 
-    .header__btn-container {
+    .btn-container {
       display: flex;
       margin-top: 1rem;
       gap: 20px;
+   
+      @media screen and (max-width: 800px) {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 2em;
+        
+      }
 
+      @media screen and (max-width: 500px) {
+       flex-direction: column;
+       gap: 10px;
+       
+      }
       .btn {
         gap: 5px;
         padding: 1rem 1.5rem;
@@ -46,6 +74,13 @@
       background-color: var(--white-color);
       padding: 1rem;
       box-shadow: var(--box-shadow-2);
+
+      @media screen and (max-width: 800px) {
+        display: none;
+        
+      }
+
+
       img {
         width: 100%;
         box-shadow: var(--box-shadow-4);

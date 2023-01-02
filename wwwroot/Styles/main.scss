@@ -74,10 +74,19 @@
 .btn {
   display: flex;
   align-items: center;
+  justify-content: center;
   text-decoration: none;
   transition: all ease-in-out var(--timer-short);
   border: none;
   cursor: pointer;
+  max-width: 300px;
+  text-align: center;
+  @media screen and (max-width: 600px) {
+   width: 100%;
+   max-width: 100%;
+  }
+  
+
 }
 
 .btn.btn-line {
@@ -149,4 +158,13 @@
 
 .bg-dark {
   background-color: var(--black-100);
+}
+
+.btn__container{
+  display: flex;
+  gap: 10px;
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+    gap: 10px;
+   }
 }

@@ -1,9 +1,13 @@
 .row__container {
+  @media screen and (max-width: 997px) {
+    flex-direction: column;
+    gap: 30px;
+  }
+
   img {
     width: 100%;
     max-width: 350px;
   }
-
   .home__info-details {
     max-width: 700px;
 
@@ -17,6 +21,10 @@
     div {
       padding-left: 2rem;
       margin-left: 6rem;
+      @media screen and (max-width: 997px) {
+        padding-left: 10px;
+        margin-left: 0px;
+      }
     }
 
     .bold {
@@ -46,7 +54,12 @@
       }
     }
 
-    .button__container {
+    .btn__container {
+      display: flex;
+      gap: 10px;
+      @media screen and (max-width: 600px) {
+        flex-direction: column;
+      }
       .btn {
         padding: 0.8rem 1.3rem;
         gap: 5px;
@@ -63,36 +76,44 @@
     url("/Assets/mattersImage.jpg");
   background-position: center;
   background-size: cover;
-  height: 70vh;
   width: 100%;
-  div{
-    h1{
+  div {
+    h1 {
       margin-bottom: 1rem;
     }
-    h1,p{
+    h1,
+    p {
       color: var(--white-color);
       width: 100%;
       max-width: 700px;
     }
 
-    .matters__grid{
+    .matters__grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
       margin-top: 2rem;
-      .matters__card{
+
+      .matters__card {
         border: 1px solid var(--grey-300);
         padding: 2rem;
         transition: all ease-in-out var(--timer-short);
-        h1{
+        @media screen and (max-width: 600px) {
+          padding: 10px;
+          padding-left: 20px;
+        }
+        h1 {
           font-size: 3rem;
           font-weight: lighter;
+          @media screen and (max-width: 600px) {
+            font-size: 1, 5rem;
+          }
         }
-        p{
+        p {
           font-size: 1.4rem;
           line-height: 25px;
         }
 
-        &:hover{
+        &:hover {
           background-color: var(--accent-color);
           border-color: var(--accent-color);
         }
@@ -101,23 +122,23 @@
   }
 }
 
-.smart__container{
-
-  div{
+.smart__container {
+  div {
     max-width: 400px;
-    .accent-text{
+    .accent-text {
       color: var(--accent-color);
     }
   }
 
-  div:nth-child(2){
+  div:nth-child(2) {
     max-width: 600px;
-    .p-text{
+    .p-text {
       margin-bottom: 1rem;
     }
 
-    div{
-      .btn{
+    .btn__container {
+      
+      .btn {
         padding: 1rem 1.5rem;
         font-size: 1rem;
       }
