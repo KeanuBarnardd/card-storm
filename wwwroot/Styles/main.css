@@ -463,10 +463,6 @@
 }
 
 footer {
-  padding: 5rem 0rem;
-}
-
-footer .footer__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -474,66 +470,138 @@ footer .footer__content {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 1.6rem 0rem;
+}
+
+footer .footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .footer__container p, footer .footer__container li {
+  color: var(--grey-400);
+  list-style: none;
+}
+
+footer .footer__container .footer__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  max-width: 700px;
-  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--grey-700);
 }
 
-footer .footer__content h1 {
-  font-size: 3rem;
-  line-height: 50px;
-  color: var(--white-color);
-  margin-bottom: 1rem;
-}
-
-footer .footer__content p {
-  color: var(--white-color);
-  margin-bottom: 1rem;
-  font-size: 1.1rem;
-}
-
-footer .footer__content .button__container a {
-  padding: 1rem 1.5rem;
-}
-
-footer .footer__content .button__container div {
+footer .footer__container .footer__top .logo__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 20px;
+  gap: 10px;
+  color: var(--white-color);
 }
 
-footer .footer__content .button__container div i {
-  background-color: var(--white-color);
+footer .footer__container .footer__top .logo__container i {
+  font-size: 2rem;
   color: var(--accent-color);
-  font-size: 1.5rem;
-  padding: 0.7rem;
-  border-radius: 100%;
 }
 
-footer .footer__content .button__container div .phone__container {
+footer .footer__container .footer__top .logo__container h2 {
+  line-height: 20px;
+}
+
+footer .footer__container .footer__top .logo__container p {
+  line-height: 18px;
+  color: var(--grey-300);
+}
+
+footer .footer__container .footer__top .socials__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  gap: 10px;
 }
 
-footer .footer__content .button__container div .phone__container p {
-  margin-bottom: 0;
-  line-height: 0px;
+footer .footer__container .footer__top .socials__container a {
+  font-size: 1.2rem;
+  color: var(--grey-300);
+  padding: 0.4rem 0.8rem;
+  background-color: var(--grey-700);
 }
 
-footer .footer__content .button__container div .phone__container h2 {
-  line-height: 0px;
+footer .footer__container .footer__middle-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 1rem;
+}
+
+footer .footer__container .footer__middle-content .col {
+  max-width: 500px;
+}
+
+footer .footer__container .footer__middle-content .col h2 {
   color: var(--white-color);
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+footer .footer__container .footer__middle-content .col ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+}
+
+footer .footer__container .footer__middle-content .col .btn {
+  max-width: 200px;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: 2px solid var(--grey-300);
+  color: var(--grey-300);
+  margin-top: 1rem;
+}
+
+footer .footer__container .footer__middle-content .col .btn:hover {
+  background-color: var(--grey-300);
+  color: var(--black-color);
+}
+
+footer .footer__container .footer__middle-content .col a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+footer .footer__container .footer__middle-content .col.newsletter {
+  max-width: 320px;
+}
+
+footer .footer__container .footer__middle-content .col.newsletter input {
+  background-color: var(--grey-600);
+  border: none;
+  border-bottom: 1px solid var(--accent-color);
+  padding: 5px;
+  font-size: 1rem;
+  margin-bottom: 10px;
 }
 
 .mobile__nav {
