@@ -1,6 +1,22 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\head1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\head1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\head2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\head2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\head3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\head3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\head4.jpg",
+      "PackagePath": "staticwebassets\\Assets\\head4.jpg"
+    },
+    {
       "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\homeCardImage.jpg",
       "PackagePath": "staticwebassets\\Assets\\homeCardImage.jpg"
     },
@@ -17,6 +33,10 @@
       "PackagePath": "staticwebassets\\Assets\\securityImage.jpg"
     },
     {
+      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\team.jpg",
+      "PackagePath": "staticwebassets\\Assets\\team.jpg"
+    },
+    {
       "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Styles\\Shared\\_Footer.scss",
       "PackagePath": "staticwebassets\\Styles\\Shared\\_Footer.scss"
     },
@@ -31,6 +51,10 @@
     {
       "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Styles\\Shared\\_Navbar.scss",
       "PackagePath": "staticwebassets\\Styles\\Shared\\_Navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Styles\\Shared\\_PageHeader.scss",
+      "PackagePath": "staticwebassets\\Styles\\Shared\\_PageHeader.scss"
     },
     {
       "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Styles\\globals.css",

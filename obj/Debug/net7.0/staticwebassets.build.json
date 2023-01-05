@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KQxcIMbupCMAPGdEI2t/AMo4h3saEFpcztGoyw0EkfQ=",
+  "Hash": "QpqR9e85UkuniAh0drOKSnhk8EUz3aag0WB0aeCU5jM=",
   "Source": "card-storm",
   "BasePath": "_content/card-storm",
   "Mode": "Default",
@@ -16,6 +16,74 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\head1.jpg",
+      "SourceId": "card-storm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\",
+      "BasePath": "_content/card-storm",
+      "RelativePath": "Assets/head1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\head1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\head2.jpg",
+      "SourceId": "card-storm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\",
+      "BasePath": "_content/card-storm",
+      "RelativePath": "Assets/head2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\head2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\head3.jpg",
+      "SourceId": "card-storm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\",
+      "BasePath": "_content/card-storm",
+      "RelativePath": "Assets/head3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\head3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\head4.jpg",
+      "SourceId": "card-storm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\",
+      "BasePath": "_content/card-storm",
+      "RelativePath": "Assets/head4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\head4.jpg"
+    },
     {
       "Identity": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\homeCardImage.jpg",
       "SourceId": "card-storm",
@@ -83,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Assets\\securityImage.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\team.jpg",
+      "SourceId": "card-storm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\",
+      "BasePath": "_content/card-storm",
+      "RelativePath": "Assets/team.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\team.jpg"
     },
     {
       "Identity": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
@@ -440,6 +525,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Styles\\Shared\\_Navbar.scss"
+    },
+    {
+      "Identity": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Styles\\Shared\\_PageHeader.scss",
+      "SourceId": "card-storm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\",
+      "BasePath": "_content/card-storm",
+      "RelativePath": "Styles/Shared/_PageHeader.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Styles\\Shared\\_PageHeader.scss"
     }
   ]
 }

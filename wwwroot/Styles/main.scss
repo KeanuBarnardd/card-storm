@@ -11,6 +11,7 @@
 @import "./Shared/HomeHeader";
 @import "./Shared/Footer";
 @import "./Shared/MobileNavbar";
+@import "./Shared/PageHeader";
 
 * {
   padding: 0;
@@ -143,6 +144,7 @@
   }
 }
 
+
 .head-text {
   color: var(--grey-700);
   line-height: 38px;
@@ -160,6 +162,10 @@
   background-color: var(--black-100);
 }
 
+.bg-light{
+  background-color: var(--grey-100);
+}
+
 .btn__container{
   display: flex;
   gap: 10px;
@@ -167,4 +173,8 @@
     flex-direction: column;
     gap: 10px;
    }
+}
+
+.sub-title {
+  color: var(--accent-color);
 }

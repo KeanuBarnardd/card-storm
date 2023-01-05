@@ -1,0 +1,13 @@
+<div class="page__header-container app__flex" style=" background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.952) 1%, rgba(117, 19, 93, 0)),
+    url(@img);">
+  <div class="app__container-width">
+    <h1>@title</h1>
+  </div>
+</div>
+
+@code {
+  [Parameter]
+  public string? title { get; set; } = "";
+  [Parameter]
+  public string? img { get; set; } = "";
+}
