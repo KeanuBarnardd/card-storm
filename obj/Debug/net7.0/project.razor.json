@@ -78,39 +78,6 @@
         }
       },
       {
-        "HashCode": -1248090252,
-        "Kind": "Components.Component",
-        "Name": "card_storm.Pages.Contact.Contact",
-        "AssemblyName": "card-storm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Contact"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "card_storm.Pages.Contact.Contact"
-        }
-      },
-      {
-        "HashCode": -608815284,
-        "Kind": "Components.Component",
-        "Name": "card_storm.Pages.Contact.Contact",
-        "AssemblyName": "card-storm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "card_storm.Pages.Contact.Contact"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "card_storm.Pages.Contact.Contact",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 2082626084,
         "Kind": "Components.Component",
         "Name": "card_storm.Pages.Home.Home",
@@ -173,6 +140,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "card_storm.Pages.About.About",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1248090252,
+        "Kind": "Components.Component",
+        "Name": "card_storm.Pages.Contact.Contact",
+        "AssemblyName": "card-storm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Contact"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "card_storm.Pages.Contact.Contact"
+        }
+      },
+      {
+        "HashCode": -608815284,
+        "Kind": "Components.Component",
+        "Name": "card_storm.Pages.Contact.Contact",
+        "AssemblyName": "card-storm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "card_storm.Pages.Contact.Contact"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "card_storm.Pages.Contact.Contact",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

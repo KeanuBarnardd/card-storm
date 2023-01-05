@@ -296,6 +296,81 @@
   color: var(--grey-600);
 }
 
+.contact__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+}
+
+.contact__form .contact__details {
+  max-width: 550px;
+}
+
+.contact__form .contact__details h2 {
+  color: var(--grey-600);
+  margin-top: 1rem;
+}
+
+.contact__form .contact__details ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  gap: 10px;
+}
+
+.contact__form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.contact__form-container .input__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+.contact__form-container .input__container input, .contact__form-container .input__container textarea {
+  background-color: var(--grey-100);
+  border: none;
+  border-bottom: 2px solid var(--accent-color);
+  resize: none;
+  font-size: 1rem;
+}
+
+.contact__form-container .input__container textarea {
+  height: 200px;
+}
+
+.contact__form-container .row {
+  gap: 20px;
+}
+
+.contact__form-container button {
+  padding: 1rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  max-width: 200px;
+}
+
 .nav__bg {
   background-color: rgba(255, 255, 255, 0);
   border-bottom: 1px solid rgba(128, 128, 128, 0.315);
