@@ -1,13 +1,14 @@
 .service__container {
-  box-shadow: var(--box-shadow-5);
+ 
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 300px;
   display: flex;
   flex-direction: column-reverse;
   position: relative;
   overflow: hidden;
-
+  box-shadow: var(--box-shadow-3);
+  //background-image: none !important;
   .card__content {
     display: flex;
     flex-direction: column;

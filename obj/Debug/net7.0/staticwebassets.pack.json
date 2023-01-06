@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\Styles\\Shared\\_PageHeader.scss"
     },
     {
+      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Styles\\Shared\\_ServiceCard.scss",
+      "PackagePath": "staticwebassets\\Styles\\Shared\\_ServiceCard.scss"
+    },
+    {
       "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Styles\\globals.css",
       "PackagePath": "staticwebassets\\Styles\\globals.css"
     },

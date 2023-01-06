@@ -3,4 +3,16 @@
 	gap:20px; 
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin-top: 2rem;
+  .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    i{
+      font-size: 1.5rem;
+      background-color: var(--grey-500);
+      padding: 0.7rem;
+      border-radius: 100%;
+      color: var(--grey-300);
+    }
+  }
 }

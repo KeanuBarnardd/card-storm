@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QpqR9e85UkuniAh0drOKSnhk8EUz3aag0WB0aeCU5jM=",
+  "Hash": "vdsyHGqThoPr+jcLvVtV2og0sHLJUe0bI2Uo9IZU0x8=",
   "Source": "card-storm",
   "BasePath": "_content/card-storm",
   "Mode": "Default",
@@ -542,6 +542,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Styles\\Shared\\_PageHeader.scss"
+    },
+    {
+      "Identity": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Styles\\Shared\\_ServiceCard.scss",
+      "SourceId": "card-storm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\",
+      "BasePath": "_content/card-storm",
+      "RelativePath": "Styles/Shared/_ServiceCard.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Styles\\Shared\\_ServiceCard.scss"
     }
   ]
 }
