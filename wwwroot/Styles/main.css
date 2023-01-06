@@ -371,6 +371,15 @@
   max-width: 200px;
 }
 
+.services__grid {
+  display: -ms-grid;
+  display: grid;
+  gap: 20px;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-top: 2rem;
+}
+
 .nav__bg {
   background-color: rgba(255, 255, 255, 0);
   border-bottom: 1px solid rgba(128, 128, 128, 0.315);
@@ -920,6 +929,66 @@ footer .footer__container .footer__middle-content .col.newsletter input {
   text-align: center;
   font-size: 3.5rem;
   color: var(--white-color);
+}
+
+.service__container {
+  -webkit-box-shadow: var(--box-shadow-5);
+          box-shadow: var(--box-shadow-5);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  position: relative;
+  overflow: hidden;
+}
+
+.service__container .card__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  background-color: var(--grey-700);
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  -webkit-transform: translateY(58%);
+          transform: translateY(58%);
+  -webkit-transition: all ease-in-out var(--timer-short);
+  transition: all ease-in-out var(--timer-short);
+}
+
+.service__container .card__content h1 {
+  font-size: 1.5rem;
+  line-height: 25px;
+  color: var(--white-color);
+}
+
+.service__container .card__content .p-text {
+  color: var(--grey-300);
+  -webkit-transition: all ease-in-out var(--timer-short);
+  transition: all ease-in-out var(--timer-short);
+  margin-top: 0.5rem;
+}
+
+.service__container:hover .card__content {
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+.service__container:hover .card__content .p-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 * {

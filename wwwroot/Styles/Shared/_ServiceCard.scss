@@ -1,0 +1,41 @@
+.service__container {
+  box-shadow: var(--box-shadow-5);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+  overflow: hidden;
+
+  .card__content {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--grey-700);
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    transform: translateY(58%);
+    transition: all ease-in-out var(--timer-short);
+    h1 {
+      font-size: 1.5rem;
+      line-height: 25px;
+      color: var(--white-color);
+    }
+    .p-text {
+      color: var(--grey-300);
+      transition: all ease-in-out var(--timer-short);
+      margin-top: 0.5rem;
+    }
+  }
+
+  &:hover {
+    .card__content {
+      transform: translateY(0%);
+      .p-text {
+        display: flex;
+      }
+    }
+  }
+}

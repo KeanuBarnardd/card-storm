@@ -1,0 +1,29 @@
+<div class="service__container" style="background-image: url(@img);">
+  <div class="card__content">
+    <div class="row">
+      <div class="col">
+        <p class="sub-title">@subTitle</p>
+        <h1>@title</h1>
+      </div>
+    </div>
+    <p class="p-text">@description</p>
+    <i class="fa-solid @icon"></i>
+  </div>
+</div>
+
+@code {
+  [Parameter]
+  public string? subTitle { get; set; }
+
+  [Parameter]
+  public string? title { get; set; }
+
+  [Parameter]
+  public string? description { get; set; }
+
+  [Parameter]
+  public string? img { get; set; }
+
+  [Parameter]
+  public string? icon { get; set; }
+}
