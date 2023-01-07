@@ -1,0 +1,23 @@
+@page "/ItemCard"
+
+<div class="item__card-container" style="background-image: url('@imgUrl');">
+  <div class="item__card-content">
+    <p class="sub-title">@title</p>
+    <h1>@price</h1>
+    <p class="p-text">@description</p>
+
+  </div>
+</div>
+
+@code {
+  [Parameter]
+  public int id { get; set; }
+  [Parameter]
+  public string title { get; set; } = "Item";
+  [Parameter]
+  public string description { get; set; } = "Example Text";
+  [Parameter]
+  public float price { get; set; } = 0;
+  [Parameter]
+  public string imgUrl { get; set; } = "";
+}

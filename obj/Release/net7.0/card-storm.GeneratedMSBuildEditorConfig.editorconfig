@@ -20,32 +20,56 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/CreateDeck/CreateDeck.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlRGVja1xDcmVhdGVEZWNrLnJhem9y
+[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/About/About.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXRcQWJvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/Help/Help.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGVscFxIZWxwLnJhem9y
+[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/Contact/Contact.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdFxDb250YWN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/Home/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/Practise/Practise.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJhY3Rpc2VcUHJhY3Rpc2UucmF6b3I=
+[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/Products/Products.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcUHJvZHVjdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/Profile/Profile.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZVxQcm9maWxlLnJhem9y
+[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Pages/Services/Services.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZXNcU2VydmljZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Shared/Footer.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEZvb3Rlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Shared/HomeHeader.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEhvbWVIZWFkZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Shared/MobileNavbar.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1vYmlsZU5hdmJhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Shared/Navbar.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdmJhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Shared/PageHeader.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhZ2VIZWFkZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Shared/ServiceCard.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNlcnZpY2VDYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/Shared/StatsCard.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN0YXRzQ2FyZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/keanu/OneDrive/Documents/C\# Projects/Published/card-storm/_Imports.razor]

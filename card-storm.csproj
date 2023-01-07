@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -6,5 +6,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>card_storm</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Data_\**" />
+    <Content Remove="Data_\**" />
+    <EmbeddedResource Remove="Data_\**" />
+    <None Remove="Data_\**" />
+  </ItemGroup>
 
 </Project>

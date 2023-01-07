@@ -1,6 +1,22 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\access.jpg",
+      "PackagePath": "staticwebassets\\Assets\\access.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\apartment.jpg",
+      "PackagePath": "staticwebassets\\Assets\\apartment.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\details.jpg",
+      "PackagePath": "staticwebassets\\Assets\\details.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\door.jpg",
+      "PackagePath": "staticwebassets\\Assets\\door.jpg"
+    },
+    {
       "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\head1.jpg",
       "PackagePath": "staticwebassets\\Assets\\head1.jpg"
     },
@@ -15,6 +31,10 @@
     {
       "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\head4.jpg",
       "PackagePath": "staticwebassets\\Assets\\head4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\home.jpg",
+      "PackagePath": "staticwebassets\\Assets\\home.jpg"
     },
     {
       "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\homeCardImage.jpg",
