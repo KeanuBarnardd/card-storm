@@ -371,6 +371,14 @@
   max-width: 200px;
 }
 
+.products__grid {
+  display: -ms-grid;
+  display: grid;
+  gap: 20px;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
 .services__grid {
   display: -ms-grid;
   display: grid;

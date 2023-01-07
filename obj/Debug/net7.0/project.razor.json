@@ -12,39 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 784134319,
-        "Kind": "Components.Component",
-        "Name": "card_storm.Pages.Products.Products",
-        "AssemblyName": "card-storm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Products"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "card_storm.Pages.Products.Products"
-        }
-      },
-      {
-        "HashCode": 1004036508,
-        "Kind": "Components.Component",
-        "Name": "card_storm.Pages.Products.Products",
-        "AssemblyName": "card-storm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "card_storm.Pages.Products.Products"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "card_storm.Pages.Products.Products",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1300931907,
         "Kind": "Components.Component",
         "Name": "card_storm.Pages.About.About",
@@ -111,6 +78,39 @@
         }
       },
       {
+        "HashCode": 575523363,
+        "Kind": "Components.Component",
+        "Name": "card_storm.Pages.Services.Services",
+        "AssemblyName": "card-storm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Services"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "card_storm.Pages.Services.Services"
+        }
+      },
+      {
+        "HashCode": -645665366,
+        "Kind": "Components.Component",
+        "Name": "card_storm.Pages.Services.Services",
+        "AssemblyName": "card-storm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "card_storm.Pages.Services.Services"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "card_storm.Pages.Services.Services",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -865865180,
         "Kind": "Components.Component",
         "Name": "card_storm.Pages.Home.Home",
@@ -144,35 +144,35 @@
         }
       },
       {
-        "HashCode": 575523363,
+        "HashCode": 784134319,
         "Kind": "Components.Component",
-        "Name": "card_storm.Pages.Services.Services",
+        "Name": "card_storm.Pages.Products.Products",
         "AssemblyName": "card-storm",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Services"
+            "TagName": "Products"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "card_storm.Pages.Services.Services"
+          "Common.TypeName": "card_storm.Pages.Products.Products"
         }
       },
       {
-        "HashCode": -645665366,
+        "HashCode": 1004036508,
         "Kind": "Components.Component",
-        "Name": "card_storm.Pages.Services.Services",
+        "Name": "card_storm.Pages.Products.Products",
         "AssemblyName": "card-storm",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "card_storm.Pages.Services.Services"
+            "TagName": "card_storm.Pages.Products.Products"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "card_storm.Pages.Services.Services",
+          "Common.TypeName": "card_storm.Pages.Products.Products",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -239,39 +239,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "card_storm.Shared.Footer",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -601990173,
-        "Kind": "Components.Component",
-        "Name": "card_storm.Shared.HomeHeader",
-        "AssemblyName": "card-storm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "HomeHeader"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "card_storm.Shared.HomeHeader"
-        }
-      },
-      {
-        "HashCode": -1798190065,
-        "Kind": "Components.Component",
-        "Name": "card_storm.Shared.HomeHeader",
-        "AssemblyName": "card-storm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "card_storm.Shared.HomeHeader"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "card_storm.Shared.HomeHeader",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -653,6 +620,156 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "card_storm.Shared.StatsCard",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1393079517,
+        "Kind": "Components.Component",
+        "Name": "card_storm.Shared.ItemCard",
+        "AssemblyName": "card-storm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ItemCard"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "id"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "title"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "description",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "description"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "price",
+            "TypeName": "System.Single",
+            "Metadata": {
+              "Common.PropertyName": "price"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "imgUrl",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "imgUrl"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "card_storm.Shared.ItemCard"
+        }
+      },
+      {
+        "HashCode": 979153188,
+        "Kind": "Components.Component",
+        "Name": "card_storm.Shared.ItemCard",
+        "AssemblyName": "card-storm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "card_storm.Shared.ItemCard"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "id"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "title"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "description",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "description"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "price",
+            "TypeName": "System.Single",
+            "Metadata": {
+              "Common.PropertyName": "price"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "imgUrl",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "imgUrl"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "card_storm.Shared.ItemCard",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -601990173,
+        "Kind": "Components.Component",
+        "Name": "card_storm.Shared.HomeHeader",
+        "AssemblyName": "card-storm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "HomeHeader"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "card_storm.Shared.HomeHeader"
+        }
+      },
+      {
+        "HashCode": -1798190065,
+        "Kind": "Components.Component",
+        "Name": "card_storm.Shared.HomeHeader",
+        "AssemblyName": "card-storm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "card_storm.Shared.HomeHeader"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "card_storm.Shared.HomeHeader",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

@@ -9,15 +9,7 @@
     <div class="products__grid">
       @foreach (var item in storeService.storeItems)
       {
-        <ItemCard id=@item.id title=@item.title imgUrl=@item.img_Url price=@item.price />
-
-
-
-        @* <p>Item Id: @item.id </p>
-          <p>Item Title: @item.title </p>
-          <p>Description: @item.description</p>
-          <p>Price: <b>@item.price</b></p>
-          <p>Image URL : <b>@item.img_Url</b></p> *@
+        <ItemCard id=@item.id title=@item.title imgUrl=@item.img_Url price=@item.price description=@item.description />
       }
     </div>
     <div class="item__container">

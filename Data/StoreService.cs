@@ -4,7 +4,7 @@ public class StoreService
 {
   // Create our List of items
   public List<Item> storeItems = new List<Item>{
-    new Item { id = 1, title="Arlo Go 2 4G/Wi-Fi Security Camera", description="Arlo’s most flexible full HD camera gives you intelligent security at more locations than ever. Arlo Go 2 delivers 100% wire-free security with 4G or Wi-Fi connectivity. Crucial for moments when Wi-Fi is down, 4G cellular backup can continue to protect your property without missing a moment.", price= 650, img_Url=""  },
+    new Item { id = 1, title="Arlo Go 2 4G/Wi-Fi Security Camera", description="Arlo’s most flexible full HD camera gives you intelligent security at more locations than ever. Arlo Go 2 delivers 100% wire-free security with 4G or Wi-Fi connectivity. Crucial for moments when Wi-Fi is down, 4G cellular backup can continue to protect your property without missing a moment.", price= 650, img_Url="./Assets/Cams/cam1.jpeg" },
 
     new Item{id=2, title="Arlo Pro 4 - 2K Wire-Free Spotlight 4 Camera Kit", description="Rest easy knowing your home is protected, whether you’re there or away with Arlo Pro 4. With no wires, your camera connects directly to your Wi-Fi network so you can easily install it in minutes. Spot unique details with color night vision, and see more in dark areas with the integrated spotlight.", price= 978, img_Url="" },
 
