@@ -3,30 +3,36 @@
 
 <PageHeader title="Products" img="./Assets/head3.jpg" />
 
-<div class="page__container app__flex">
+<div class="page__container app__flex bg-light">
   <div class="app__container-width">
-
-    <div class="products__grid">
-      @foreach (var item in storeService.storeItems)
-      {
-        <ItemCard id=@item.id title=@item.title imgUrl=@item.img_Url price=@item.price description=@item.description />
-      }
+    <p class="sub-title bold">View a list of our products</p>
+    <h1 class="head-text">Our Products</h1>
+    <p class="p-text ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam libero doloribus, voluptatem
+      aspernatur suscipit quidem rem inventore est, facere ab quod officia ad. Iste, eveniet iusto a ut praesentium
+      voluptatem!</p>
+    <div class="r-w">
+      <div class="products__grid">
+        @foreach (var item in storeService.storeItems)
+        {
+          <ItemCard id=@item.id title=@item.title imgUrl=@item.img_Url price=@item.price description=@item.description />
+        }
+      </div>
+      <div class="receipt__container">
+        <p class="sub-title bold">Here are your products</p>
+        <h3> Shopping Cart </h3>
+          @foreach (var cart_item in storeService.shoppingCart)
+          {
+            <div>
+              
+            </div>
+          }
+        <hr>
+      </div>
     </div>
-    <div class="item__container">
-      <button>Price</button>
-    </div>
-
-
   </div>
 </div>
 
 
 @code {
-
-
-
-
-
-
 
 }
