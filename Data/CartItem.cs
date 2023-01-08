@@ -2,9 +2,11 @@ namespace card_storm.Data
 {
   public class CartItem
   {
-    public int id { get; set; }
-    public string title { get; set; }
-    public string price { get; set; }
-    public int count { get; set; }
+    public int CartId { get; set; }
+    public int CartKey {get; set; }
+    public string? CartTitle { get; set; }
+    public float CartPrice { get; set; }
+    public int CartCount { get; set; }
+    public string? CartImg { get; set; }
   }
 }

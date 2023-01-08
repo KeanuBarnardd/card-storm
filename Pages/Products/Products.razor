@@ -22,8 +22,12 @@
         <h3> Shopping Cart </h3>
           @foreach (var cart_item in storeService.shoppingCart)
           {
-            <div>
+            <div style="border: 1px solid red; margin-bottom: 10px">
+                <p class="bold">Cart Title: @cart_item.CartTitle</p>
+              <p>CartId : @cart_item.CartId</p>
+              <p>Cart Key: @cart_item.CartKey</p>
               
+            
             </div>
           }
         <hr>
