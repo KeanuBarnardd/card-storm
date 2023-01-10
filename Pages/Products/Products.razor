@@ -1,12 +1,12 @@
 @page "/Products"
-@inject ProductProviderService productProviderService;
+
 
 
 <PageHeader title="Products" img="./Assets/head3.jpg" />
 
 <div class="page__container app__flex">
   <div class="app__container-width">
-<<<<<<< HEAD
+
     <p class="sub-title bold">View a list of our products</p>
     <h1 class="head-text">Our Products</h1>
     <p class="p-text ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam libero doloribus, voluptatem
@@ -14,19 +14,18 @@
       voluptatem!</p>
     <div class="r-w">
       <div class="products__grid">
-        @foreach (var product in productProviderService.Products.ToList())
-        {
+        @* @foreach (var product in productProviderService.Products.ToList())
+          {
           <ItemCard id=@product.Id title=@product.Name imgUrl=@product.img_Url price=@product.Price
           description=@product.Description />
-        }
+          } *@
       </div>
       <div class="receipt__container">
         <p class="sub-title bold">Here are your products</p>
         <h3> Shopping Cart </h3>
         @* @foreach (var cart_item in storeService.shoppingCart)
           {
-<<<<<<< HEAD
-<<<<<<< HEAD
+
           <div style="border: 1px solid red; margin-bottom: 10px">
           <p class="bold">Cart Title: @cart_item.CartTitle</p>
           <p>CartId : @cart_item.CartId</p>
@@ -34,30 +33,16 @@
 
           </div>
           } *@
-=======
-=======
->>>>>>> parent of 51aa743 (Basic Shopping Cart Setup)
-            <div>
-              
-            </div>
-          }
->>>>>>> parent of 51aa743 (Basic Shopping Cart Setup)
+
+
+        <div>
+
+        </div>
+
+
         <hr>
       </div>
-=======
-
-    <div class="products__grid">
-      @foreach (var item in storeService.storeItems)
-      {
-        <ItemCard id=@item.id title=@item.title imgUrl=@item.img_Url price=@item.price description=@item.description />
-      }
->>>>>>> parent of 31cffd1 (Products Styling and Shopping cart added)
     </div>
-    <div class="item__container">
-      <button>Price</button>
-    </div>
-
-
   </div>
 </div>
 
