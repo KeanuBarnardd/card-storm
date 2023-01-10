@@ -22,14 +22,14 @@
       <div class="receipt__container">
         <p class="sub-title bold">Here are your products</p>
         <h3> Shopping Cart </h3>
-
-
-        <div>
-
-        </div>
-
-
-        <hr>
+        @foreach (var cart_item in storeService.shoppingCart)
+        {
+          <div style="border: 1px solid red; margin-bottom: 10px">
+            <p class="bold">Cart Title: @cart_item.CartTitle</p>
+            <p>CartId : @cart_item.CartId</p>
+            <p>Cart Key: @cart_item.CartKey</p>
+          </div>
+        }
       </div>
     </div>
   </div>
