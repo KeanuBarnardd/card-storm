@@ -4,8 +4,9 @@
 
 <PageHeader title="Products" img="./Assets/head3.jpg" />
 
-<div class="page__container app__flex bg-light">
+<div class="page__container app__flex">
   <div class="app__container-width">
+<<<<<<< HEAD
     <p class="sub-title bold">View a list of our products</p>
     <h1 class="head-text">Our Products</h1>
     <p class="p-text ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam libero doloribus, voluptatem
@@ -43,11 +44,30 @@
 >>>>>>> parent of 51aa743 (Basic Shopping Cart Setup)
         <hr>
       </div>
+=======
+
+    <div class="products__grid">
+      @foreach (var item in storeService.storeItems)
+      {
+        <ItemCard id=@item.id title=@item.title imgUrl=@item.img_Url price=@item.price description=@item.description />
+      }
+>>>>>>> parent of 31cffd1 (Products Styling and Shopping cart added)
     </div>
+    <div class="item__container">
+      <button>Price</button>
+    </div>
+
+
   </div>
 </div>
 
 
 @code {
+
+
+
+
+
+
 
 }

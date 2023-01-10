@@ -1,38 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\Cams\\cam1.jpeg",
-      "PackagePath": "staticwebassets\\Assets\\Cams\\cam1.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\Cams\\cam2.jpeg",
-      "PackagePath": "staticwebassets\\Assets\\Cams\\cam2.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\Cams\\cam3.jpeg",
-      "PackagePath": "staticwebassets\\Assets\\Cams\\cam3.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\Cams\\cam4.jpeg",
-      "PackagePath": "staticwebassets\\Assets\\Cams\\cam4.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\Cams\\cam5.jpeg",
-      "PackagePath": "staticwebassets\\Assets\\Cams\\cam5.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\Cams\\cam6.jpeg",
-      "PackagePath": "staticwebassets\\Assets\\Cams\\cam6.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\Cams\\cam7.jpeg",
-      "PackagePath": "staticwebassets\\Assets\\Cams\\cam7.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\Cams\\cam8.jpeg",
-      "PackagePath": "staticwebassets\\Assets\\Cams\\cam8.jpeg"
-    },
-    {
       "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Assets\\access.jpg",
       "PackagePath": "staticwebassets\\Assets\\access.jpg"
     },
@@ -95,10 +63,6 @@
     {
       "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Styles\\Shared\\_HomeHeader.scss",
       "PackagePath": "staticwebassets\\Styles\\Shared\\_HomeHeader.scss"
-    },
-    {
-      "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Styles\\Shared\\_ItemCard.scss",
-      "PackagePath": "staticwebassets\\Styles\\Shared\\_ItemCard.scss"
     },
     {
       "Id": "C:\\Users\\keanu\\OneDrive\\Documents\\C# Projects\\Published\\card-storm\\wwwroot\\Styles\\Shared\\_MobileNavbar.scss",
