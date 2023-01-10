@@ -1,6 +1,31 @@
-.products__grid{
-  display: grid;
-	gap:20px; 
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
- 
+.r-w {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 1.5rem;
+  gap: 20px;
+  .products__grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    width: 100%;
+  }
+  .receipt__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: var(--box-shadow-3);
+    h3 {
+      color: var(--grey-500);
+    }
+    hr {
+      border: none;
+      border: 1px solid var(--grey-100);
+      margin-top: 0.5rem;
+    }
+  }
 }

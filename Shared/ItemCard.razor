@@ -1,11 +1,15 @@
 <div class="item__card-container" style="background-image: url(@imgUrl);">
   <div class="item__card-content">
-    <p class="sub-title">@title</p>
-    <h1>@price</h1>
-    <p class="p-text">@description</p>
+    <div class="row">
+      <p class="sub-title bold">@title</p>
+      <h1>$@price.00</h1>
+    </div>
 
+    <p class="p-text">@description</p>
+    <button @onclick="AddItem" class="btn btn-green"><i class="fa-solid fa-cart-shopping"></i>Add to cart</button>
   </div>
 </div>
+
 
 @code {
   [Parameter]
