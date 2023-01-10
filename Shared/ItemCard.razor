@@ -1,5 +1,3 @@
-@inject StoreService storeService;
-
 <div class="item__card-container" style="background-image: url(@imgUrl);">
   <div class="item__card-content">
     <div class="row">
@@ -14,57 +12,22 @@
 
 @code {
   [Parameter]
-  public int id { get; set; }
+  public Guid id { get; set; }
   [Parameter]
   public string title { get; set; } = "Item";
   [Parameter]
   public string description { get; set; } = "Example Text";
   [Parameter]
-  public float price { get; set; } = 0;
+  public double price { get; set; } = 0;
   [Parameter]
   public string imgUrl { get; set; } = "";
 
-  //https://stackoverflow.com/questions/604831/collection-was-modified-enumeration-operation-may-not-execute BUG RELEVANT 
+  //https://blazorschool.com/tutorial/blazor-server/dotnet6/create-product-list-page-396854 BUG RELEVANT
 
   public void AddItem()
   {
-    if (storeService.shoppingCart != null)
-    {
-      if (storeService.shoppingCart.Count == 0)
-      {
-        CreateNewCartItem();
-      }
-      else
-      {
-        foreach (var item in storeService.shoppingCart.ToList())
-        {
-          if (id == item.CartId)
-          {
-            // Add to the count of the CartItem (CartItem += 1)
-            Console.WriteLine("These ID's match.");
 
-          }
-          else
-          {
-            // Create a new CartItem- add to List
-            Console.WriteLine("ID's don't match I_ID " + id + " C_ID: " + item.CartId);
-            CreateNewCartItem();
-          }
-        }
-      }
-    }
   }
 
-  public void CreateNewCartItem()
-  {
-    var random = new Random();
-    storeService.shoppingCart.Add(new CartItem
-    {
-      CartId = id,
-      CartKey = random.Next(0, 350),
-      CartTitle = title,
-      CartPrice = price,
-      CartImg = imgUrl
-    });
-  }
+
 }
