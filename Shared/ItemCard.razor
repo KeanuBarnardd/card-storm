@@ -1,8 +1,8 @@
 <div class="item__card-container" style="background-image: url(@imgUrl);">
   <div class="item__card-content">
     <div class="row">
-      <p class="sub-title bold">@title</p>
-      <h1>$@price.00</h1>
+    <p class="sub-title bold">@title</p>
+    <h1>$@price.00</h1>
     </div>
 
     <p class="p-text">@description</p>
@@ -22,6 +22,7 @@
   [Parameter]
   public string imgUrl { get; set; } = "";
 
+<<<<<<< HEAD
   //https://blazorschool.com/tutorial/blazor-server/dotnet6/create-product-list-page-396854 BUG RELEVANT
 
   public void AddItem()
@@ -30,4 +31,10 @@
   }
 
 
+=======
+  public void AddItem(){
+    Console.WriteLine("ID of Item: " + id);
+    
+  }
+>>>>>>> parent of 51aa743 (Basic Shopping Cart Setup)
 }
