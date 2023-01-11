@@ -8,14 +8,14 @@
     </div>
 
     <p class="p-text">@description</p>
-    <button @onclick="AddItem" class="btn btn-green"><i class="fa-solid fa-cart-shopping"></i>Add to cart</button>
+    <button @onclick="()=> Buy(id)" class="btn btn-green"><i class="fa-solid fa-cart-shopping"></i>Add to cart</button>
   </div>
 </div>
 
 
 @code {
   [Parameter]
-  public int id { get; set; }
+  public Guid id { get; set; }
   [Parameter]
   public string title { get; set; } = "Item";
   [Parameter]
@@ -25,45 +25,53 @@
   [Parameter]
   public string imgUrl { get; set; } = "";
 
-  public void AddItem()
-  {
-    if (storeService.shoppingCart != null)
-    {
-      if (storeService.shoppingCart.Count == 0)
-      {
-        CreateNewCartItem();
-      }
-      else
-      {
-        foreach (var item in storeService.shoppingCart.ToList())
-        {
-          if (id == item.CartId)
-          {
-            // Add to the count of the CartItem (CartItem += 1)
-            Console.WriteLine("These ID's match.");
 
-          }
-          else
-          {
-            // Create a new CartItem- add to List
-            Console.WriteLine("ID's don't match I_ID " + id + " C_ID: " + item.CartId);
-            CreateNewCartItem();
-          }
-        }
-      }
-    }
+  private void Buy(Guid itemId)
+  {
+    storeService.AddItemToCart(itemId);
   }
 
-  public void CreateNewCartItem()
-  {
+  @* public void CreateNewCartItem()
+    {
     var random = new Random();
     storeService.shoppingCart.Add(new CartItem
     {
-      CartId = id,
-      CartKey = random.Next(0, 350),
-      CartTitle = title,
-      CartPrice = price,
-      CartImg = imgUrl
+    CartId = id,
+    CartKey = random.Next(0, 350),
+    CartTitle = title,
+    CartPrice = price,
+    CartImg = imgUrl
     });
-  }
+    } *@
+
+
+
+  @* public void AddItem()
+    {
+    if (storeService.shoppingCart != null)
+    {
+    if (storeService.shoppingCart.Count == 0)
+    {
+    CreateNewCartItem();
+    }
+    else
+    {
+    foreach (var item in storeService.shoppingCart.ToList())
+    {
+    if (id == item.CartId)
+    {
+    // Add to the count of the CartItem (CartItem += 1)
+    Console.WriteLine("These ID's match.");
+
+    }
+    else
+    {
+    // Create a new CartItem- add to List
+    Console.WriteLine("ID's don't match I_ID " + id + " C_ID: " + item.CartId);
+    CreateNewCartItem();
+    }
+    }
+    }
+    }
+    } *@
 }
