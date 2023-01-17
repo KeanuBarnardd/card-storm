@@ -27,5 +27,45 @@
       border: 1px solid var(--grey-100);
       margin-top: 0.5rem;
     }
+
+    .cart__item-container {
+      display: flex;
+      margin-top: 0.5rem;
+      padding: 0.2rem;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid var(--grey-100);
+      box-shadow: var(--box-shadow-3);
+      border-left: 2px solid var(--accent-color);
+      transition: all ease-in-out var(--timer-short);
+
+      &:hover {
+        box-shadow: var(--box-shadow-1);
+        
+      }
+
+      img {
+        width: 100px;
+        height: 100px;
+      }
+      .cart__item-content {
+        .cart__item-title {
+          line-height: 18px;
+          font-size: 1.1rem;
+          color: var(--grey-500);
+        }
+
+        .cart__item-price {
+          margin-top: 0.5rem;
+          span {
+            background-color: var(--grey-100);
+            padding: 0.2rem 0.5rem;
+            font-weight: bold;
+            color: var(--accent-color);
+
+          }
+        }
+      }
+    }
   }
 }
